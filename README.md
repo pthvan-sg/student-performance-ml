@@ -1,9 +1,9 @@
-# 🎓 Student Performance Prediction — ML Research Project
+# Student Performance Prediction — ML Research Project
 
 > **Lumiere Research Scholar Program — Fall Cohort 2024**  
 > *Researcher: Phan Thao Van*
 
-## 📋 Overview
+## Overview
 
 This repository contains the full machine learning pipeline for predicting high school student performance in mathematics. Using a rich demographic and behavioural dataset, this project investigates which factors most strongly influence academic outcomes and develops interpretable predictive models.
 
@@ -14,7 +14,7 @@ This repository contains the full machine learning pipeline for predicting high 
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 student-performance-ml/
@@ -34,7 +34,7 @@ student-performance-ml/
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (`01_EDA`)
 - Dataset overview: student demographics, family background, social habits, and grades
@@ -61,11 +61,11 @@ student-performance-ml/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 This project uses the **UCI Student Performance Dataset** (Cortez & Silva, 2008).
 
-> ⚠️ **Data not included in this repository.** See [`data/README.md`](data/README.md) for instructions on downloading and placing the dataset.
+> **Data not included in this repository.** See [`data/README.md`](data/README.md) for instructions on downloading and placing the dataset.
 
 **Key features include:**
 - Demographics: age, sex, address type
@@ -75,7 +75,7 @@ This project uses the **UCI Student Performance Dataset** (Cortez & Silva, 2008)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.9+
@@ -98,11 +98,11 @@ jupyter notebook notebooks/02_Model_Development_Student_Performance.ipynb
 jupyter notebook notebooks/03_SHAP_Analysis_Student_Performance.ipynb
 ```
 
-> 📝 The notebooks were originally developed in Google Colab. The data loading cell uses a `.zip` file at `/content/archive.zip` — update the path to your local dataset location before running.
+> The notebooks were originally developed in Google Colab. The data loading cell uses a `.zip` file at `/content/archive.zip` — update the path to your local dataset location before running.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 See [`scripts/requirements.txt`](scripts/requirements.txt). Key packages:
 
@@ -116,15 +116,6 @@ See [`scripts/requirements.txt`](scripts/requirements.txt). Key packages:
 
 ---
 
-## 📝 Citation
-
-If you use this work, please cite:
-
-```
-Phan, T.V. (2024). Student Performance Prediction using Machine Learning.
-Lumiere Research Scholar Program. GitHub: https://github.com/<your-username>/student-performance-ml
-```
-
 **Original dataset:**
 ```
 Cortez, P., & Silva, A. (2008). Using data mining to predict secondary school student performance.
@@ -133,7 +124,7 @@ In Proceedings of 5th Annual Future Business Technology Conference (pp. 5-12).
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic research purposes. See the research proposal in `docs/` for full context.
 
