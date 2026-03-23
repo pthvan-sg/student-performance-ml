@@ -1,0 +1,82 @@
+# === DATA (never commit raw data) ===
+data/*.csv
+data/*.zip
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.feather
+*.csv
+*.pkl
+*.pickle
+*.joblib
+
+# === SECRETS & CREDENTIALS ===
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+credentials/
+config/secrets.yaml
+config/secrets.json
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === VIRTUAL ENVIRONMENTS ===
+.venv/
+venv/
+env/
+.conda/
+conda-env/
+
+# === OUTPUTS / MODELS ===
+models/
+outputs/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# === IDEs & EDITORS ===
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === LOGS ===
+*.log
+logs/
+
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
